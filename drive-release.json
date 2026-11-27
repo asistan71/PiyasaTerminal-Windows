@@ -1,6 +1,6 @@
 {
-  "version": "4.9.88",
-  "url": "https://drive.google.com/uc?export=download&id=1UQyX2N1Tphhto54GlMBpx0hneGoKwZFc",
-  "sha256": "174465ae9210169565534b5cba442ddba1b7091e3fe8f756b7bcc645848f4a33",
-  "notes": "Otomatik kurulum engelleri, sınırlı yeniden deneme, hata günlüğü ve yeniden açılışta başarı bildirimi. 72 test ve 45 alt test başarılı."
+  "version": "4.9.89",
+  "url": "https://drive.google.com/uc?export=download&id=1g40hS9pLEyDjnarntG3xZb65ygUHqQ9L",
+  "sha256": "b4121f79e95a0da14ac36a324b39f27255b6c2ffc2cfc295b5b1036b70fba495",
+  "notes": "Birleşik dip/kalkış PRO, yaklaşık POC değişimi, strateji karşılaştırması, BIST endeks verisi tekrarının azaltılması. 76 test ve 45 alt test başarılı."
 }
