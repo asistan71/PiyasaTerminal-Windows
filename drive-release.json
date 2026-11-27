@@ -1,6 +1,6 @@
 {
-  "version": "4.9.90",
-  "url": "https://drive.google.com/uc?export=download&id=10AJEfdcI1jJjeDiojVO3XBqu8r76XZw5",
-  "sha256": "db81beb2464e4dd9f2c5289a68cc1264b62ab61862dc1181466484335d379f5a",
-  "notes": "Birleşik PRO radar sesli sinyalleri ve isteğe bağlı 15 dakika tekrar taraması. 78 test ve 45 alt test başarılı."
+  "version": "4.9.91",
+  "url": "https://drive.google.com/uc?export=download&id=1cJdsO3YdkpcDqH7Pj9vClKEjBBQxy0PZ",
+  "sha256": "149538daed018f354e146fae6c5362ff0220d9d680dba9f9083e5438e07e2366",
+  "notes": "BIST ve Binance 15dk radar, OHLCV baskı ve POC analizi, grafik işareti, kalıcı alarm geçmişi, 8 mum sonrası yön ölçümü. 82 test ve 45 alt test başarılı."
 }
