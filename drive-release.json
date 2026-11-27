@@ -1,6 +1,6 @@
 {
-  "version": "4.9.86",
-  "url": "https://drive.google.com/uc?export=download&id=1R8NbVrsDdMViBbnSyxmxifaU0uDWTKyf",
-  "sha256": "914fe75c1867701d47f2bed471c72cb187ad02ac2f004b9c613d5b28ee433e4c",
-  "notes": "v4.9.85 ve v4.9.86 PRO geliştirmeleri tek paket: adaptif radar, toplu Binance, göreceli güç, MTF raporları, FVG/OB bölgeleri, BOS/CHoCH, TP1–TP3 testleri. 67 test ve 45 alt test başarılı."
+  "version": "4.9.87",
+  "url": "https://drive.google.com/uc?export=download&id=1IPWuQI30kc1Cvlyh27pjzGbnNdTzSMlg",
+  "sha256": "e0682eaf96e4078d308eb05df9b08d52305d930a75b20d64002a435e90578030",
+  "notes": "Resmi sabit sürüm adreslerini bulut kanalına dönüştürme ve otomatik kurulum sayacının kesilmesini önleme. 69 test ve 45 alt test başarılı."
 }
