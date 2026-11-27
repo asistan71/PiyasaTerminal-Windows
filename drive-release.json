@@ -1,6 +1,6 @@
 {
-  "version": "4.9.81",
-  "url": "https://drive.google.com/uc?export=download&id=1p3OstK_RLrTwZ1a-i98lxxtEkE-Plp4r",
-  "sha256": "0417990908408e09dfabc8a6bd9c35edb7238033c32c63af89fb2a1393dcfc8e",
-  "notes": "Google Drive cloud update channel and GitHub fallback."
+  "version": "4.9.82",
+  "url": "https://drive.google.com/uc?export=download&id=1euL6_mT3nKXIleiQzTaJaWUI-Sl11zrK",
+  "sha256": "e3186e0c12f78eeb984eb6a5be837c4e61fc2e6db4a03a3c32bf2b2e7352ca61",
+  "notes": "Otomatik güncelleme: ilk denetim 30 saniye, sonra 15 dakika; uygun durumda 60 saniye uyarı ile kurulum. 52 test başarılı."
 }
