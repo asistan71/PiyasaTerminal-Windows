@@ -1,0 +1,42 @@
+name: Windows release
+on:
+  push:
+    paths:
+      - 'release-input/*.b64'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: windows-release
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate package
+        run: |
+          mkdir -p dist
+          python - <<'PY'
+          import pathlib, base64, zipfile, re, hashlib
+          files = list(pathlib.Path('release-input').glob('*.b64'))
+          def ver(p):
+              return tuple(map(int,re.fullmatch(r'PiyasaTerminal_v(\d+\.\d+\.\d+)_V39_Windows.zip.b64',p.name).group(1).split('.')))
+          src=max(files,key=ver)
+          dst=pathlib.Path('dist')/src.name[:-4]
+          dst.write_bytes(base64.b64decode(src.read_text().strip(),validate=True))
+          with zipfile.ZipFile(dst) as z:
+              assert z.testzip() is None
+              for n in z.namelist():
+                  assert not pathlib.PurePosixPath(n).is_absolute() and '..' not in pathlib.PurePosixPath(n).parts and '\\' not in n
+                  if n.endswith('.py'): compile(z.read(n),n,'exec')
+          pathlib.Path('dist/version.txt').write_text('.'.join(map(str,ver(src))))
+          pathlib.Path(str(dst)+'.sha256').write_text(hashlib.sha256(dst.read_bytes()).hexdigest()+'  '+dst.name+'\n')
+          PY
+      - name: Publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          version=$(cat dist/version.txt)
+          if gh release view "v$version" >/dev/null 2>&1; then exit 1; fi
+          gh release create "v$version" dist/*.zip dist/*.sha256 --target "$GITHUB_SHA" --title "Piyasa Terminali v$version" --notes "ZIP integrity and Python syntax validated." --latest
