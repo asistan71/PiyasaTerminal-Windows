@@ -1,6 +1,6 @@
 {
-  "version": "4.9.89",
-  "url": "https://drive.google.com/uc?export=download&id=1g40hS9pLEyDjnarntG3xZb65ygUHqQ9L",
-  "sha256": "b4121f79e95a0da14ac36a324b39f27255b6c2ffc2cfc295b5b1036b70fba495",
-  "notes": "Birleşik dip/kalkış PRO, yaklaşık POC değişimi, strateji karşılaştırması, BIST endeks verisi tekrarının azaltılması. 76 test ve 45 alt test başarılı."
+  "version": "4.9.90",
+  "url": "https://drive.google.com/uc?export=download&id=10AJEfdcI1jJjeDiojVO3XBqu8r76XZw5",
+  "sha256": "db81beb2464e4dd9f2c5289a68cc1264b62ab61862dc1181466484335d379f5a",
+  "notes": "Birleşik PRO radar sesli sinyalleri ve isteğe bağlı 15 dakika tekrar taraması. 78 test ve 45 alt test başarılı."
 }
