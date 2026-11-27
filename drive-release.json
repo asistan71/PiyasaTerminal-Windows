@@ -1,6 +1,6 @@
 {
-  "version": "4.9.84",
-  "url": "https://drive.google.com/uc?export=download&id=1_qxLwGa29MuwIjLjDWtzsZIoBLSyANW_",
-  "sha256": "fa50af3e4b2546ce0084a4397ad5b4466d8579a97caa5b10ca7e9fbae2eaf626",
-  "notes": "Önbelleksiz sorgu, son denetim saati, canlı geri sayım, sesli bildirim, kurulum aşamaları ve ağ hatasında tekrar deneme. 58 test ve 45 alt test başarılı."
+  "version": "4.9.86",
+  "url": "https://drive.google.com/uc?export=download&id=1R8NbVrsDdMViBbnSyxmxifaU0uDWTKyf",
+  "sha256": "914fe75c1867701d47f2bed471c72cb187ad02ac2f004b9c613d5b28ee433e4c",
+  "notes": "v4.9.85 ve v4.9.86 PRO geliştirmeleri tek paket: adaptif radar, toplu Binance, göreceli güç, MTF raporları, FVG/OB bölgeleri, BOS/CHoCH, TP1–TP3 testleri. 67 test ve 45 alt test başarılı."
 }
