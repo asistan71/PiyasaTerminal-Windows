@@ -1,6 +1,6 @@
 {
-  "version": "4.9.83",
-  "url": "https://drive.google.com/uc?export=download&id=1R2zfEB2gHfRQ85AECEOSYE1Th5tbZFK5",
-  "sha256": "80cabbea5328d759dee785b864d96fe40e5055b85e5bbc94dc24ed4d75cefcc5",
-  "notes": "Güncelleme denetim aralığı 1–15 dakika arasında seçilebilir ve kalıcıdır. 53 test ve 45 alt test başarılı."
+  "version": "4.9.84",
+  "url": "https://drive.google.com/uc?export=download&id=1_qxLwGa29MuwIjLjDWtzsZIoBLSyANW_",
+  "sha256": "fa50af3e4b2546ce0084a4397ad5b4466d8579a97caa5b10ca7e9fbae2eaf626",
+  "notes": "Önbelleksiz sorgu, son denetim saati, canlı geri sayım, sesli bildirim, kurulum aşamaları ve ağ hatasında tekrar deneme. 58 test ve 45 alt test başarılı."
 }
