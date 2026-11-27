@@ -1,6 +1,6 @@
 {
-  "version": "4.9.92",
-  "url": "https://drive.google.com/uc?export=download&id=1dggjv7HMwl4uQQm33WECYjM-qgi9x9EV",
-  "sha256": "b6b1f644202177e8540c89f23c9d027b9ec6cb77ccfb3e750d507cee976ecfed",
-  "notes": "Binance Global/TR toplu 15dk radar, saatlik trend, deneysel güven puanı ve referans giriş/stop/TP seviyeleri. 84 test ve 45 alt test başarılı."
+  "version": "4.9.93",
+  "url": "https://drive.google.com/uc?export=download&id=12WkQ6WLxzk88Kqtlf7vR0btMY4WvLIqT",
+  "sha256": "953b18267f2127cb40e34b47541b170d484a3618a2912e8a1775d07d8101eeec",
+  "notes": "MTF trend bağlamı, destek/direnç, günlük Camarilla POC yakınlığı, sinyal istatistikleri ve grafik giriş seviyesi. 88 test ve 45 alt test başarılı."
 }
