@@ -1,6 +1,6 @@
 {
-  "version": "4.9.82",
-  "url": "https://drive.google.com/uc?export=download&id=1euL6_mT3nKXIleiQzTaJaWUI-Sl11zrK",
-  "sha256": "e3186e0c12f78eeb984eb6a5be837c4e61fc2e6db4a03a3c32bf2b2e7352ca61",
-  "notes": "Otomatik güncelleme: ilk denetim 30 saniye, sonra 15 dakika; uygun durumda 60 saniye uyarı ile kurulum. 52 test başarılı."
+  "version": "4.9.83",
+  "url": "https://drive.google.com/uc?export=download&id=1R2zfEB2gHfRQ85AECEOSYE1Th5tbZFK5",
+  "sha256": "80cabbea5328d759dee785b864d96fe40e5055b85e5bbc94dc24ed4d75cefcc5",
+  "notes": "Güncelleme denetim aralığı 1–15 dakika arasında seçilebilir ve kalıcıdır. 53 test ve 45 alt test başarılı."
 }
