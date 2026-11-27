@@ -1,6 +1,6 @@
 {
-  "version": "4.9.87",
-  "url": "https://drive.google.com/uc?export=download&id=1IPWuQI30kc1Cvlyh27pjzGbnNdTzSMlg",
-  "sha256": "e0682eaf96e4078d308eb05df9b08d52305d930a75b20d64002a435e90578030",
-  "notes": "Resmi sabit sürüm adreslerini bulut kanalına dönüştürme ve otomatik kurulum sayacının kesilmesini önleme. 69 test ve 45 alt test başarılı."
+  "version": "4.9.88",
+  "url": "https://drive.google.com/uc?export=download&id=1UQyX2N1Tphhto54GlMBpx0hneGoKwZFc",
+  "sha256": "174465ae9210169565534b5cba442ddba1b7091e3fe8f756b7bcc645848f4a33",
+  "notes": "Otomatik kurulum engelleri, sınırlı yeniden deneme, hata günlüğü ve yeniden açılışta başarı bildirimi. 72 test ve 45 alt test başarılı."
 }
